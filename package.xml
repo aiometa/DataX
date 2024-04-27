@@ -146,6 +146,13 @@
             <outputDirectory>datax</outputDirectory>
         </fileSet>
         <fileSet>
+            <directory>clickhousereader/target/datax/</directory>
+            <includes>
+                <include>**/*.*</include>
+            </includes>
+            <outputDirectory>datax</outputDirectory>
+        </fileSet>
+        <fileSet>
             <directory>hdfsreader/target/datax/</directory>
             <includes>
                 <include>**/*.*</include>
@@ -224,6 +231,20 @@
         </fileSet>
         <fileSet>
             <directory>starrocksreader/target/datax/</directory>
+            <includes>
+                <include>**/*.*</include>
+            </includes>
+            <outputDirectory>datax</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>dorisreader/target/datax/</directory>
+            <includes>
+                <include>**/*.*</include>
+            </includes>
+            <outputDirectory>datax</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>sybasereader/target/datax/</directory>
             <includes>
                 <include>**/*.*</include>
             </includes>
@@ -492,6 +513,20 @@
         </fileSet>
         <fileSet>
             <directory>selectdbwriter/target/datax/</directory>
+            <includes>
+                <include>**/*.*</include>
+            </includes>
+            <outputDirectory>datax</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>neo4jwriter/target/datax/</directory>
+            <includes>
+                <include>**/*.*</include>
+            </includes>
+            <outputDirectory>datax</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>sybasewriter/target/datax/</directory>
             <includes>
                 <include>**/*.*</include>
             </includes>

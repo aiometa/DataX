@@ -70,6 +70,7 @@
         <module>ftpreader</module>
         <module>txtfilereader</module>
         <module>streamreader</module>
+        <module>clickhousereader</module>
 
         <module>mongodbreader</module>
         <module>tdenginereader</module>
@@ -79,7 +80,8 @@
         <module>loghubreader</module>
         <module>datahubreader</module>
         <module>starrocksreader</module>
-
+        <module>sybasereader</module>
+        <module>dorisreader</module>
         <!-- writer -->
         <module>mysqlwriter</module>
         <module>starrockswriter</module>
@@ -123,11 +125,15 @@
         <module>doriswriter</module>
         <module>selectdbwriter</module>
         <module>adbmysqlwriter</module>
-
+        <module>sybasewriter</module>
+        <module>neo4jwriter</module>
         <!-- common support module -->
         <module>plugin-rdbms-util</module>
         <module>plugin-unstructured-storage-util</module>
-       
+        <module>gaussdbreader</module>
+        <module>gaussdbwriter</module>
+        <module>datax-example</module>
+
     </modules>
 
     <dependencyManagement>
